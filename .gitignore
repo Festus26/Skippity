@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# But include C source and header files
+!*.c
+!*.h
+
+# Also include the .gitignore itself
+!.gitignore
